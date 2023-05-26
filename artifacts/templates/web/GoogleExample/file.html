@@ -1,0 +1,19 @@
+<!-- Use dynamic Guest variables, type ctrl+space or guest to explore available entities.-->
+<!-- Type "d" to see decisioning helpers -->
+<div id="pers_TopBanner">
+    <div class="pers_TopBanner__banner">
+      <p class="pers_TopBanner__p">
+        <span class="pers_TopBanner__p--span" style="display: inline"
+          >[[Title Text | string | For this bar, we recommend less than 50 characters| {max: 50 ,
+          group: Title, groupOrder: 2, order: 1 }]]</span
+        >
+        <a
+          id="pers_TopBanner-button"
+          class="pers_TopBanner__p--button"
+          href="[[Button Link | string |https://www.example.com/ | { group: Button , required: false, order: 2 } ]]"
+          >[[Button Text | string | I accept | { group: Button, order: 1 }]]</a
+        >
+      </p>
+      <div class="pers__btn-close"></div>
+    </div>
+  </div>

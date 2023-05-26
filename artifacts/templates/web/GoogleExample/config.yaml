@@ -1,0 +1,9 @@
+name: GA4 Optimize Example (Alert Bar)
+archived: false
+friendlyId: 'ga4_alertbar_4cd4y30v6w'
+type: WEB
+status: PUBLISHED
+icon: 'icon-web-Analytics'
+defaultTemplate: false
+render: true
+customTemplate: true

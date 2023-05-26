@@ -1,0 +1,21 @@
+{
+  "name": "google-optimize-personalize-integration",
+  "version": "1.0.0",
+  "description": "An example of how to configure a 3rd Party Optimization tool (Sitecore Personalize) for Google Analytics 4 (GA4)",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "keywords": [],
+  "dependencies": {
+
+  },
+  "devDependencies": {
+    "supertest": "6.2.4",
+    "mocha": "10.0.0",
+    "chai": "4.3.6",
+    "sitecore-cdp-serializer": "0.1.7"
+  },
+  "author": "",
+  "license": "ISC"
+}
